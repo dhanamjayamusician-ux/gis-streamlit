@@ -1,0 +1,10 @@
+{
+"type": "FeatureCollection",
+"name": "survey_zones",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "zone_name": "Zone North", "area_km2": 8.3 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 83.1285, 17.7468 ], [ 83.2085, 17.7468 ], [ 83.2085, 17.8268 ], [ 83.1285, 17.8268 ], [ 83.1285, 17.7468 ] ] ] } },
+{ "type": "Feature", "properties": { "zone_name": "Zone South", "area_km2": 13.8 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 83.2085, 17.5268 ], [ 83.2885, 17.5268 ], [ 83.2885, 17.6068 ], [ 83.2085, 17.6068 ], [ 83.2085, 17.5268 ] ] ] } },
+{ "type": "Feature", "properties": { "zone_name": "Zone East", "area_km2": 17.1 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 83.3085, 17.6668 ], [ 83.3885, 17.6668 ], [ 83.3885, 17.7468 ], [ 83.3085, 17.7468 ], [ 83.3085, 17.6668 ] ] ] } }
+]
+}

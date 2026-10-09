@@ -1,0 +1,15 @@
+{
+"type": "FeatureCollection",
+"name": "testing_sites",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "name": "Site A", "status": "active", "strength_mpa": 32.1 }, "geometry": { "type": "Point", "coordinates": [ 83.076003226566812, 17.728628039537366 ] } },
+{ "type": "Feature", "properties": { "name": "Site B", "status": "active", "strength_mpa": 28.4 }, "geometry": { "type": "Point", "coordinates": [ 83.135463221444653, 17.619308795510737 ] } },
+{ "type": "Feature", "properties": { "name": "Site C", "status": "pending", "strength_mpa": 0.0 }, "geometry": { "type": "Point", "coordinates": [ 83.271509846226877, 17.757741364249206 ] } },
+{ "type": "Feature", "properties": { "name": "Site D", "status": "active", "strength_mpa": 35.6 }, "geometry": { "type": "Point", "coordinates": [ 83.094581649788836, 17.804453870311455 ] } },
+{ "type": "Feature", "properties": { "name": "Site E", "status": "completed", "strength_mpa": 40.2 }, "geometry": { "type": "Point", "coordinates": [ 83.077439165831422, 17.663376545905582 ] } },
+{ "type": "Feature", "properties": { "name": "Site F", "status": "pending", "strength_mpa": 0.0 }, "geometry": { "type": "Point", "coordinates": [ 83.220106586431015, 17.602391392441081 ] } },
+{ "type": "Feature", "properties": { "name": "Site G", "status": "active", "strength_mpa": 29.8 }, "geometry": { "type": "Point", "coordinates": [ 83.128151295205996, 17.544760790905162 ] } },
+{ "type": "Feature", "properties": { "name": "Site H", "status": "completed", "strength_mpa": 38.1 }, "geometry": { "type": "Point", "coordinates": [ 83.231982444180971, 17.731765331333857 ] } }
+]
+}
